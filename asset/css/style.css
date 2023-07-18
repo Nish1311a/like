@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+
+}
+.head{
+    height: 60px;
+    background-color: rgb(239, 11, 11);
+    width: 100%;
+    display: flex;
+    align-items: center;
+ 
+}
+.navi{
+    margin-left: 200px;
+}
+.item{
+    margin-left: 90px;
+  
+}
+.item a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+
+}
+.item a:hover{
+    color: blue;
+}
+.searchbox{
+    display: flex;
+    border: 1px solid rgb(104, 193, 244);
+    margin-left: 20px;
+    background-color: white;
+}
+.searchicon img{
+    height: 28px;
+    width: 27px;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+.search input{
+    width: 320px;
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    padding-top: 8px;
+}
+.rightcon{
+display: flex;
+align-items: center;
+margin-left: 70px;
+}
+.pro:hover{
+    transform: scaleX(1.1);
+    color: rgb(25, 0, 255);
+}
+.wish{
+    margin-left: 30px;
+}
+.wish:hover{
+    transform: scaleX(1.1);
+    color: rgb(25, 0, 255);
+}
+.bag:hover{
+    transform: scaleX(1.1);
+    color: rgb(25, 0, 255);
+}
+.bag{
+    margin-left: 30px;
+}
+.pro img{
+    width: 40px;
+    height: 30px;
+}
+.wish img{
+    width: 40px;
+    height: 30px;
+    
+}
+.bag img{
+    width: 40px;
+    height: 30px;
+}
+/* catagry */
+.menu-bar{
+    text-align: center;
+    background-color: rgb(168, 166, 166);
+    margin-top: 5px       ;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 12px;
+    padding: 15px;
+    font-size: 25px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(68, 8, 250);
+    
+}
+.menu-bar ul li a:hover{
+    border-radius: 3px;
+    background: pink;
+}
+.sub{
+    display: none;
+}
+.menu-bar ul li:hover .sub{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -14px;
+    background: rgb(242, 246, 242);
+}
+.menu-bar ul li:hover .sub ul{
+    display: block;
+   
+}
+.secondsub{
+    display: none;
+}
+.hoverme:hover .secondsub{
+    display: block;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 120px;
+    background-color: rgb(175, 104, 134);
+}
+/* body */
+.bodycontainer{
+    margin-top: 20px;
+}
+.bodycontainer img{
+    height: 300px;
+    width: 100%;
+}
+.bodycontainer img:hover{
+    transform:scale(1.1) ;
+}
+/* proctus */
+.proctus{
+    background-color: rgb(168, 166, 166);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    
+}
+.proctus h1{
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 20px;
+    color: blue;
+    cursor: pointer;
+
+}
+.proctus h1:hover{
+    color: red;
+}
+.proctus p{
+    margin-left: 170px;
+    cursor: pointer;
+    color: blue;
+}
+.proctus p:hover{
+    color: red;
+}
+.proctus img{
+    height: 200px;
+    margin-top: 20px;
+   margin-left: 120px;
+   cursor: pointer;
+}
+.proctus img:hover{
+    transform:scale(1.1) ;
+
+}
+.tshirts{
+    background-color: rgb(168, 166, 166);
+    height: 430px;
+    margin-right: 330px;
+    margin-left: 330px;
+    display: flex;
+    margin-top: 10px;
+}
+.tshirts img{
+    margin-left: 135px;
+    margin-top: 50px ;
+    height: 350px;
+}
+.tshirts img:hover{
+    transform:scale(1.1) ;
+}
+.tshirts h2{
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 20px;
+    color: blue;
+    cursor: pointer;
+ font-size: 30px;
+}
+.tshirts h2:hover{
+    color: red;
+}
+.tshirts p{
+    margin-left: 170px;
+    cursor: pointer;
+    color: blue;
+}
+/* furni */
+.furni{
+    background-color: rgb(168, 166, 166);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.furni h1{
+    color: blue;
+}
+.furni h1:hover{
+    color: red;
+}
+.fun{
+    display: flex;
+
+}
+.fun img{
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.fun img:hover{
+    transform:scale(1.1) ;
+}
+.fun p{
+    margin-left: 170px;
+    cursor: pointer;
+    color: blue;
+}
+.fun p:hover{   color: red;
+}
+#last{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(168, 166, 166);
+    color: blue;
+}
+.de{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+
+}
+.de img{
+    height: 700px;
+    width: 800px;
+    margin-top: 10px;
+}
+.de img:hover{
+    transform:scale(1.1) ;
+}
+.de p{
+    margin-left: 400px;
+    cursor: pointer;
+    color: blue;
+}
+.de p:hover{
+    color: red;
+}
+/* FOOTER */
+.footer{
+    background-color: bisque;
+    height: 300px;
+}
+.footer P{
+align-items: center;
+margin-left: 900px;
+padding-top: 20px;
+font-size: 20px;
+color: blue;
+}
+.footer P:hover{
+    color: red;
+}
+.icons {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 800px;
+}
+
+.icons i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    background-color: rgb(253, 5, 5);
+    border-radius: 50%;
+
+}
